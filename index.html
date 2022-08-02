@@ -1,0 +1,37 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>hllqk|个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="icon" href="/assets/img/logo-circul-100.png">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   </head>
+<body>
+<div class="mdui-tab mdui-tab-full-width mdui-shadow-4" mdui-tab>
+<font style=";margin: 2px;"><a href="../"><b style="font-size: 20px;color: white;">Home</b></a></font>
+</div>
+<br>
+<div id="rin-bg"></div>
+<main id="rin-main">
+    <div id="rin-headimg"></div>
+    <div class="rin-name">H&nbsp;&nbsp;L&nbsp;&nbsp;L&nbsp;&nbsp;Q&nbsp;&nbsp;K</div>
+    <div class="rin-description">「其生若浮，其死若休」</div>
+    <div class="rin-tr"></div>
+    <a class="mdui-btn mdui-btn-raised rin-btn mdui-text-capitalize" href="detaile.html"><b>MORE</b></a>
+</main>
+<footer id="rin-footer">
+    <div>©<font id="year"></font> hllqk | Made with love by Seirin | BG: <a href="https://www.pixiv.net/artworks/56652667" id="bg-link" target="_blank">Pixiv</a></div>
+</footer>
+<script src="https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/js/mdui.min.js"></script>
+<script>
+$(function (){
+  date=new Date();
+  year=date.getFullYear()
+  $("#year").text(year)
+})
+</script>
+</body>
+</html>
